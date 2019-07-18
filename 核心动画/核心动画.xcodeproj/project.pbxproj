@@ -16,6 +16,7 @@
 		C2CB1D541E13B78C00095B22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CB1D521E13B78C00095B22 /* Main.storyboard */; };
 		C2CB1D561E13B78C00095B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CB1D551E13B78C00095B22 /* Assets.xcassets */; };
 		C2CB1D591E13B78C00095B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CB1D571E13B78C00095B22 /* LaunchScreen.storyboard */; };
+		C2E35CEA22E01F1700B44A73 /* musicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E35CE822E01F1700B44A73 /* musicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		C2CB1D551E13B78C00095B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2CB1D581E13B78C00095B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2CB1D5A1E13B78C00095B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E35CE822E01F1700B44A73 /* musicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = musicViewController.m; sourceTree = "<group>"; };
+		C2E35CE922E01F1700B44A73 /* musicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		C2CB1D481E13B78C00095B22 /* 核心动画 */ = {
 			isa = PBXGroup;
 			children = (
+				C2E35CE722E01EEC00B44A73 /* music */,
 				C214062A22E00BB6004AE8E4 /* game */,
 				C2CB1D4C1E13B78C00095B22 /* AppDelegate.h */,
 				C2CB1D4D1E13B78C00095B22 /* AppDelegate.m */,
@@ -100,6 +104,15 @@
 				C2CB1D4A1E13B78C00095B22 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2E35CE722E01EEC00B44A73 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				C2E35CE922E01F1700B44A73 /* musicViewController.h */,
+				C2E35CE822E01F1700B44A73 /* musicViewController.m */,
+			);
+			name = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				C276D9A01E14EDA500CD7CC4 /* SYSPendulumView.m in Sources */,
 				C276D9A31E14FDC000CD7CC4 /* SYSTestView.m in Sources */,
 				C2CB1D511E13B78C00095B22 /* ViewController.m in Sources */,
+				C2E35CEA22E01F1700B44A73 /* musicViewController.m in Sources */,
 				C2CB1D4E1E13B78C00095B22 /* AppDelegate.m in Sources */,
 				C214062D22E00BD2004AE8E4 /* gameViewController.m in Sources */,
 				C2CB1D4B1E13B78C00095B22 /* main.m in Sources */,
