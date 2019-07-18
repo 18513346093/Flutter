@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C214062922E00B59004AE8E4 /* musicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C214062822E00B59004AE8E4 /* musicViewController.m */; };
 		C276D9A01E14EDA500CD7CC4 /* SYSPendulumView.m in Sources */ = {isa = PBXBuildFile; fileRef = C276D99F1E14EDA500CD7CC4 /* SYSPendulumView.m */; };
 		C276D9A31E14FDC000CD7CC4 /* SYSTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C276D9A21E14FDC000CD7CC4 /* SYSTestView.m */; };
 		C2CB1D4B1E13B78C00095B22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CB1D4A1E13B78C00095B22 /* main.m */; };
@@ -19,8 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C214062722E00B59004AE8E4 /* musicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = musicViewController.h; sourceTree = "<group>"; };
-		C214062822E00B59004AE8E4 /* musicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musicViewController.m; sourceTree = "<group>"; };
 		C276D99E1E14EDA500CD7CC4 /* SYSPendulumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSPendulumView.h; sourceTree = "<group>"; };
 		C276D99F1E14EDA500CD7CC4 /* SYSPendulumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSPendulumView.m; sourceTree = "<group>"; };
 		C276D9A11E14FDC000CD7CC4 /* SYSTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSTestView.h; sourceTree = "<group>"; };
@@ -48,15 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C214062622E00B36004AE8E4 /* music */ = {
-			isa = PBXGroup;
-			children = (
-				C214062722E00B59004AE8E4 /* musicViewController.h */,
-				C214062822E00B59004AE8E4 /* musicViewController.m */,
-			);
-			name = music;
-			sourceTree = "<group>";
-		};
 		C2CB1D3D1E13B78B00095B22 = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +64,6 @@
 		C2CB1D481E13B78C00095B22 /* 核心动画 */ = {
 			isa = PBXGroup;
 			children = (
-				C214062622E00B36004AE8E4 /* music */,
 				C2CB1D4C1E13B78C00095B22 /* AppDelegate.h */,
 				C2CB1D4D1E13B78C00095B22 /* AppDelegate.m */,
 				C2CB1D4F1E13B78C00095B22 /* ViewController.h */,
@@ -142,7 +129,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -174,7 +160,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C214062922E00B59004AE8E4 /* musicViewController.m in Sources */,
 				C276D9A01E14EDA500CD7CC4 /* SYSPendulumView.m in Sources */,
 				C276D9A31E14FDC000CD7CC4 /* SYSTestView.m in Sources */,
 				C2CB1D511E13B78C00095B22 /* ViewController.m in Sources */,
